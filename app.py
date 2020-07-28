@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Flask inside Kubernetes!!"
+    return "Flask inside Demo!!"
 
 
 if __name__ == "__main__":
